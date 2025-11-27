@@ -3,6 +3,7 @@ pipeline {
 
     tools{
         maven 'maven'
+    }
 
     environment {
         DOCKER_COMPOSE = "docker-compose"
